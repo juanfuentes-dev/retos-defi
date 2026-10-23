@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Retos DeFi</title>
+  <meta name="description" content="Juego por equipos para aprender blockchain, Bitcoin, smart contracts, tokens, wallets y finanzas descentralizadas.">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <h1>Retos DeFi</h1>
+    <nav class="navegacion" aria-label="Secciones">
+      <button type="button" data-vista="tablero" aria-selected="true">Tablero</button>
+      <button type="button" data-vista="retos" aria-selected="false">Retos</button>
+      <button type="button" data-vista="docente" aria-selected="false">Docente</button>
+    </nav>
+  </header>
+
+  <p id="aviso" class="aviso" role="status" aria-live="polite" hidden></p>
+
+  <main>
+    <section id="vista-tablero" class="vista">
+      <ol id="ranking" class="ranking"></ol>
+    </section>
+
+    <section id="vista-retos" class="vista" hidden>
+      <div class="controles">
+        <label>Equipo que responde
+          <select id="selector-equipo"></select>
+        </label>
+        <label>Tema
+          <select id="filtro-tema"></select>
+        </label>
+      </div>
+      <div id="panel-reto"></div>
+      <ul id="lista-retos" class="lista-retos"></ul>
+    </section>
+
+    <section id="vista-docente" class="vista" hidden>
+      <div id="contenido-docente"></div>
+    </section>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/retos.js"></script>
+  <script src="js/logica.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

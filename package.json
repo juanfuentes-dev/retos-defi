@@ -1,0 +1,10 @@
+{
+  "name": "retos-defi",
+  "version": "1.0.0",
+  "description": "Juego por equipos para aprender finanzas descentralizadas, blockchain, smart contracts y tokens.",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/logica.test.js tests/retos.test.js"
+  },
+  "license": "MIT"
+}
