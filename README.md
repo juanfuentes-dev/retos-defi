@@ -75,3 +75,9 @@ js/logica.js      Lógica pura del juego (tokens, niveles, respuestas)
 js/app.js         Interfaz y persistencia
 tests/            Pruebas de lógica y de los retos
 ```
+
+---
+
+## 🥷 Curso extra: Agente de WhatsApp con IA local
+
+Ver [`curso-agente-whatsapp/`](curso-agente-whatsapp/README.md).

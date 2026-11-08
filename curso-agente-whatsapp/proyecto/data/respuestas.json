@@ -1,0 +1,14 @@
+[
+  {
+    "palabras": ["horario", "hora abren", "a que hora", "abierto"],
+    "respuesta": "🕘 Atendemos de lunes a viernes de 8:00 a 17:00 y sábados de 8:00 a 12:00."
+  },
+  {
+    "palabras": ["ubicacion", "direccion", "donde estan", "como llego"],
+    "respuesta": "📍 Estamos en Calle Ejemplo #123, San Salvador. Mapa: https://maps.google.com/?q=San+Salvador"
+  },
+  {
+    "palabras": ["asesor", "humano", "persona real"],
+    "respuesta": "🙋 Con gusto, en breve un asesor te atiende personalmente."
+  }
+]

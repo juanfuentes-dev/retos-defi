@@ -1,0 +1,6 @@
+{
+  "bienvenida": "{{saludo}} {{nombre}} 👋 Gracias por escribirnos. ¿En qué te podemos ayudar hoy?",
+  "recordatorio_cita": "Hola {{nombre}}, te recordamos tu cita el {{dia_cita}} a las {{hora_cita}} 📅. Responde *SÍ* para confirmar.",
+  "buenos_dias": "{{saludo}} ☀️ Hoy es {{dia}} {{fecha}}. ¡Que tengas un excelente día!",
+  "promo_semana": "🔥 Promo de la semana: {{promo}}. Válida hasta el {{vence}}. Escríbenos para apartar la tuya."
+}

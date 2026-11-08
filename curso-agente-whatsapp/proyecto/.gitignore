@@ -1,0 +1,7 @@
+node_modules/
+.env
+.sesion/
+.wwebjs_auth/
+.wwebjs_cache/
+data/programaciones.json
+data/estado.json
